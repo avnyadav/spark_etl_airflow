@@ -45,7 +45,7 @@ class FinanceComplaintPipelineConfig:
         return config
 
     def get_loading_config(self) -> LoadConfig:
-        outbox_dir = os.path.join(ROOT_DIR, "data", "outbox")
+        outbox_dir = os.path.join(ROOT_DIR,"data","outbox")
         load_config = LoadConfig(outbox_dir=outbox_dir,
                                  load_dir=os.path.join(self.pipeline_config.pipeline_dir, "load"))
         print(f"Load config: {load_config}")
