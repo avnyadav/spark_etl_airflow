@@ -1,0 +1,8 @@
+dags/*
+logs/*
+plugins/*
+data/*
+test
+venv/*
+.idea/*
+
