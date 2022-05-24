@@ -1,0 +1,8 @@
+data/*
+dags/*
+logs/*
+plugins/*
+venv/*
+README.md
+test
+test.txt
